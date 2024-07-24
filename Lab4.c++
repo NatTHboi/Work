@@ -42,11 +42,11 @@ int main() {
     printf("Salary amount/hr:");
     scanf("%d",&Salary);
 
-    Answer=WorkingHour*30*Salary;
+    Answer=WorkingHour*Salary;
 
     printf("\n");
     printf("Employee ID=%s",Employee_ID);
-    printf("\n salary=%.2f THB",Answer);
+    printf("\n salary= U$ %d ",Answer);
     printf("\n\n");
     return 0 ;
 }
